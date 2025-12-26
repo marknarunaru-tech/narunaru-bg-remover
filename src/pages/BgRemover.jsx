@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useCallback } from 'react'; // { useState, useCallback } を追加
 import { useDropzone } from 'react-dropzone';
 import { removeBackground } from '@imgly/background-removal';
 import { Upload, Download, Loader2, Image as ImageIcon, RefreshCw } from 'lucide-react';
