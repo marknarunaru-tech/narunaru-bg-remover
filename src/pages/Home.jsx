@@ -73,11 +73,13 @@ const Home = () => {
       <section className="bg-gray-100 py-12">
         <div className="max-w-5xl mx-auto px-6 text-center">
           <p className="text-gray-500 mb-4 text-sm">Web Utility Tool</p>
-          <Link to="/bg-remover" className="inline-block px-6 py-3 bg-white border border-gray-300 rounded-full text-gray-600 hover:bg-gray-50 transition-colors shadow-sm">
+          <Link 
+  to="/bg-remover" 
+  className="inline-block px-6 py-3 bg-white border border-gray-300 rounded-full text-gray-600 hover:bg-gray-50 transition-colors shadow-sm"
+>
   背景切り抜きツールを使う
 </Link>
-            背景切り抜きツールを使う
-          </a>
+           
         </div>
       </section>
 
