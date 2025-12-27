@@ -83,7 +83,21 @@ const Home = () => {
            
         </div>
       </section>
-
+{/* フッター */}
+      <footer className="bg-gray-100 py-8 border-t border-gray-200">
+        <div className="max-w-5xl mx-auto px-6 text-center">
+          <p className="text-gray-500 text-sm">
+            <a 
+              href="https://chiiki-imi.org/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-[#78ab07] transition-colors"
+            >
+              &copy;2013 - {new Date().getFullYear()} imi All Right Reserved.
+            </a>
+          </p>
+        </div>
+      </footer>
      
     </div>
   );
