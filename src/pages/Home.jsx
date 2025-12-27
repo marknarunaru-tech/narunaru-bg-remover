@@ -38,7 +38,8 @@ const Home = () => {
                 アイエムアイ 公式サイト
               </h2>
               <p className="text-gray-600 leading-relaxed">
-                保育・警備・不動産・社労士業務を通じて、地域の皆様の暮らしをトータルで支えます。
+                一時保育に強み。24時間365日。手厚い保育で安心をサポートします。
+
               </p>
               <div className="mt-6 inline-flex items-center text-[#78ab07] font-semibold">
                 サイトを訪問する →
@@ -59,7 +60,7 @@ const Home = () => {
               </h2>
               <p className="text-gray-600 leading-relaxed">
                 「親子の絆を、つなぐ。」<br />
-                お子様の健やかな成長を願い、安心できる面会交流をプロフェッショナルが支援します。
+                保育士が見守る面会交流。10年以上の実績を持つアイエムアイにお任せください。
               </p>
               <div className="mt-6 inline-flex items-center text-[#78ab07] font-semibold">
                 サイトを訪問する →
@@ -83,10 +84,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* フッター */}
-      <footer className="bg-[#78ab07] text-white py-8 text-center">
-        <p className="text-sm">Copyright(C) 2013 - 2025 imi All rights Reserved.</p>
-      </footer>
+     
     </div>
   );
 };
