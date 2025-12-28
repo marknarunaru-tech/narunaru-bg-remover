@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // ←これを追加
+
 
 const Home = () => {
   return (
