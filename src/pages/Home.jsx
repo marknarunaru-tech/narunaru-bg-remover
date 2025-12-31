@@ -17,7 +17,7 @@ const Home = () => {
   
   <div className="relative z-10 text-center text-white px-4">
     <h1 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-2xl">
-      人、街、未来。すべてに愛と安心を。
+      人、街、未来。すべてに安心を。
     </h1>
     <p className="text-xl md:text-2xl font-medium drop-shadow-lg">アイエムアイ（NaruNaruグループ）</p>
   </div>
