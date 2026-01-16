@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/edit/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>edit</title>
+    <script type="module" crossorigin src="/edit/assets/index-Dl4ByyNu.js"></script>
+    <link rel="stylesheet" crossorigin href="/edit/assets/index-D5AhwpWs.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+  <footer style="margin-top: 50px; border-top: 1px solid #eee; background-color: #fff; clear: both;">
+  <p style="text-align: center; padding: 25px 0; font-size: 12px; color: #666; font-family: 'Noto Serif JP', serif; line-height: 1.5;">
+    <a href="https://chiiki-imi.org/KRI" 
+       style="text-decoration: none; color: inherit; transition: opacity 0.3s; display: inline-block;"
+       onmouseover="this.style.opacity='0.6'" 
+       onmouseout="this.style.opacity='1'">
+      &copy;2025 - <span id="currentYear"></span> 北川総合研究所 imi All Right Reserved.
+    </a>
+  </p>
+</footer>
+
+<script>
+  // ブラウザ側で実行されるため、Reactのビルドエラーに左右されません
+  document.getElementById('currentYear').textContent = new Date().getFullYear();
+</script>
+
+</html>

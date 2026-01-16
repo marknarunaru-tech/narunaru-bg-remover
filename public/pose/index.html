@@ -21,15 +21,27 @@
     <link rel="icon" type="image/svg+xml" href="/pose/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>pose</title>
-    <script type="module" crossorigin src="/pose/assets/index-BOQ226OW.js"></script>
-    <link rel="stylesheet" crossorigin href="/pose/assets/index-CI6bFe2L.css">
+    <script type="module" crossorigin src="/pose/assets/index-wNduj_Ly.js"></script>
+    <link rel="stylesheet" crossorigin href="/pose/assets/index-HjCae4KO.css">
   </head>
   <body>
     <div id="root"></div>
   </body>
 
-  <footer>
-<p class="text-center py-8 text-slate-400 text-sm" style="text-align: center;"><span style="font-size:12px;"><a class="hover:text-green-600 transition-colors" href="https://chiiki-imi.org/KRI">&copy;2025 - <?php echo date('Y'); ?> 北川総合研究所 imi All Right Reserved. </a></span></p>
+  <footer style="margin-top: 50px; border-top: 1px solid #eee; background-color: #fff; clear: both;">
+  <p style="text-align: center; padding: 25px 0; font-size: 12px; color: #666; font-family: 'Noto Serif JP', serif; line-height: 1.5;">
+    <a href="https://chiiki-imi.org/KRI" 
+       style="text-decoration: none; color: inherit; transition: opacity 0.3s; display: inline-block;"
+       onmouseover="this.style.opacity='0.6'" 
+       onmouseout="this.style.opacity='1'">
+      &copy;2025 - <span id="currentYear"></span> 北川総合研究所 imi All Right Reserved.
+    </a>
+  </p>
 </footer>
+
+<script>
+  // ブラウザ側で実行されるため、Reactのビルドエラーに左右されません
+  document.getElementById('currentYear').textContent = new Date().getFullYear();
+</script>
 
   </html>
