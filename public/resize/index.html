@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="jp">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/resize/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>なるなる画像リサイズ</title>
+<meta name="keywords" content="画像,リサイズ,ユーティリティ,なるなる画像リサイズ,画像編集,画像縮小,北川総合研究所">
+<meta name="description" content="アップロードした画像を手軽に好きなサイズに縮小して保存できます。シンプルユーティリティ。">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="なるなる画像リサイズ">
+<meta property="og:description" content="アップロードした画像を手軽に好きなサイズに縮小して保存できます。シンプルユーティリティ。">
+<meta property="og:image" content="https://image.chiiki-imi.org/resize_1200_630.jpg">
+<meta property="og:site_name" content="なるなるグループ">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="なるなる画像リサイズ">
+<meta name="twitter:description" content="アップロードした画像を手軽に好きなサイズに縮小して保存できます。シンプルユーティリティ。">
+<meta name="twitter:image" content="https://image.chiiki-imi.org/resize_1200_630.jpg">
+
+
+    <script type="module" crossorigin src="/resize/assets/index-D8i9fNCw.js"></script>
+    <link rel="stylesheet" crossorigin href="/resize/assets/index-C5Hwmb0G.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+
+<footer style="margin-top: 50px; border-top: 1px solid #eee; background-color: #fff; clear: both;">
+  <p style="text-align: center; padding: 25px 0; font-size: 12px; color: #666; font-family: 'Noto Serif JP', serif; line-height: 1.5;">
+    <a href="https://chiiki-imi.org/KRI" 
+       style="text-decoration: none; color: inherit; transition: opacity 0.3s; display: inline-block;"
+       onmouseover="this.style.opacity='0.6'" 
+       onmouseout="this.style.opacity='1'">
+      &copy;2025 - <span id="currentYear"></span> 北川総合研究所 imi All Right Reserved.
+    </a>
+  </p>
+</footer>
+
+<script>
+  // ブラウザ側で実行されるため、Reactのビルドエラーに左右されません
+  document.getElementById('currentYear').textContent = new Date().getFullYear();
+</script>
+
+</html>
